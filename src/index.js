@@ -1,6 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TodoContainer from './components/TodoContainer';
+// import reportWebVitals from './reportWebVitals';
 
-const element = <h1>hello from creat React App</h1>;
+ReactDOM.render(
+  <React.StrictMode>
+    <TodoContainer />,
+  </React.StrictMode>,
+  document.getElementById('root'),
+);
 
-ReactDOM.render(element, document.getElementById('root'));
+// reportWebVitals();
