@@ -58,10 +58,9 @@ const TodoContainer = () => {
 
 
   return (
-    <>
-    <Navbar />
     <div className="container">
       <div className="inner">
+    <Navbar />
         <Header />
         <TodoInput addTodoProps={addTodoItem} />
         <TodosList
@@ -72,7 +71,7 @@ const TodoContainer = () => {
         />
       </div>
     </div>
-    </>
+
     );
 };
 
