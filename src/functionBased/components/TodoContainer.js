@@ -3,6 +3,9 @@ import TodosList from './TodosList';
 import Header from './Header';
 import TodoInput from './TodoInput';
 import { v4 as uuidv4 } from 'uuid';
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './Navbar';
+
 
 const TodoContainer = () => {
   // const getInitialTodos = () => JSON.parse(localStorage.getItem('todos')) || [];
@@ -54,8 +57,10 @@ const TodoContainer = () => {
   }, [todos]);
 
 
-    return (
-      <div className="container">
+  return (
+    <>
+    <Navbar />
+    <div className="container">
       <div className="inner">
         <Header />
         <TodoInput addTodoProps={addTodoItem} />
@@ -67,6 +72,7 @@ const TodoContainer = () => {
         />
       </div>
     </div>
+    </>
     );
 };
 
