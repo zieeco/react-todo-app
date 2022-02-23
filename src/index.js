@@ -6,8 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './functionBased/pages/About'
 import NotMatch from "./functionBased/pages/NotMatch"
 
-// import reportWebVitals from './reportWebVitals';
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -20,5 +18,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root'),
 );
-
-// reportWebVitals();

@@ -1,9 +1,9 @@
 # react-todo-app
 
-This project is an online todo. one could add different tasks to be don and it keeps track of your task in progress and the task yet to be completedthe.
+This project is an online todo application. A user can add a task, remove a task if completed and it keeps track of the task in progress and the task yet to be completedt.
 
-##Live Demo Link
-[Live Link](https://zieeco.github.io/react-todo-app/)
+## Live Demo Link
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Built With
 

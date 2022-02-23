@@ -6,9 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 
-
 const TodoContainer = () => {
-  // const getInitialTodos = () => JSON.parse(localStorage.getItem('todos')) || [];
   const [ todos, setTodosFunction ] = useState([]);
 
   const handleChange = id => {

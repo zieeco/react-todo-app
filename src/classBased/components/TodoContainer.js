@@ -5,14 +5,9 @@ import TodoInput from './TodoInput';
 import { v4 as uuidv4 } from 'uuid';
 
 class TodoContainer extends React.Component {
-  // constructor(props) {
-    // super(props);
     state = {
       todos: [],
     };
-  // }
-
-
 
   handleChange = (id) => {
     this.setState((prevState) => {
