@@ -1,71 +1,79 @@
-# Getting Started with Create React App
+# react-todo-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an online todo application. A user can add a task, remove a task if completed and it keeps track of the task in progress and the task yet to be completedt.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
+## Live Demo Link
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+  ~~~ bash
+  - HTML
+  - CSS
+  - JAVASCRIPT
+  - REACT
+  ~~~
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+<details>
+    <summary><b>Installation required</b></summary>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Step 0: Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ - A text editor (preferably Visual Studio Code, or any code editor of your choice)
+  -  [Git](https://git-scm.com/downloads)
+  -  [Node](https://nodejs.org/en/download/)
+  - #### Clone this repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  To get a local copy up and running, download th zip file or follow the steps below by rnning these commands in your command line.
 
-### `npm run eject`
+~~~bash
+git clone https://github.com/zieeco/react-todo-app.git
+~~~
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ - Navigate to the location of the folder in your machine:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ ~~~bash
+ cd react-todo-app
+ ~~~
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Step 0.1: Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Run the following command in your terminal or command line to install the `npm` packages
 
-## Learn More
+- `npm install`
+- `npm run build`
+- `npm start`
+- `npm run test`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<sub>To learn React, check out the [React documentation](https://reactjs.org/).
+</sub>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+</details>
 
-### Code Splitting
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **zieeco**
 
-### Analyzing the Bundle Size
+- GitHub: [@Zieeco](https://github.com/zieeco)
+- LinkedIn: [Isaac Imaobong Samuel](https://www.linkedin.com/in/isaac-imaobong-samuel-a4849b1b8/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Credits
 
-### Making a Progressive Web App
+- Project from [Microverse](https://bit.ly/MicroverseTN) React & Redux module
+- Code Along Tutorial [ibasLogic react tutorial](https://ibaslogic.com/react-tutorial-for-beginners/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Contributing
 
-### Advanced Configuration
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feel free to check the [issues page](https://github.com/zieeco/react-todo-app-/issues).
 
-### Deployment
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Give a ⭐️ if you like this project!
 
-### `npm run build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-todo-app
+This project is [MIT](./MIT.md) licensed.
